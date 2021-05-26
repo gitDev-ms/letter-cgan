@@ -85,25 +85,6 @@ class Discriminator(nn.Module):
         return x
 
 
-# class Decorator(nn.Module):
-#     def __init__(self):
-#         super().__init__()
-#
-#         self.conv1 = nn.Sequential(
-#             nn.Conv2d(1, 32, (5, 5)),
-#             nn.BatchNorm2d(32),
-#             nn.ReLU())
-#
-#         self.conv2 = nn.Sequential(
-#             nn.Conv2d(32, 1, (3, 3)),
-#             nn.Tanh())
-#
-#         nn.init.kaiming_normal_(self.conv1.weight)
-#
-#     def forward(self, x: torch.Tensor) -> torch.Tensor:
-#         pass
-
-
 class Classifier(nn.Module):
     def __init__(self):
         super().__init__()
