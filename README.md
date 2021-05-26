@@ -23,3 +23,5 @@
 
 #### Overall results
 ![samples](https://github.com/gitDev-ms/letter-cgan/blob/main/images/transformed-samples.png)
+
+Icon source: https://www.flaticon.com/
